@@ -215,7 +215,7 @@ public class MethodHandles {
 		 * @return the lookup mode bit mask for this Lookup object
 		 */
 		public int lookupModes() {
-			return accessMode;
+			return accessMode & FULL_ACCESS_MASK;
 		}
 	
 
